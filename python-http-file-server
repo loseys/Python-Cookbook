@@ -1,0 +1,9 @@
+import os
+
+os.system('python -m http.server 4000')
+
+# For GNU/Linux
+# python2 -m SimpleHTTPServer 4000
+# python3 -m http.server
+#
+# Tip: create a index.html to remove the Index
