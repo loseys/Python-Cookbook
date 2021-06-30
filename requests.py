@@ -12,3 +12,4 @@ content = requests.get(url).text
 headers = {"User-Agent": "Python"}
 data = {'user': 'admin', 'pass': 'admin'}
 post_method = requests.post(url, headers=headers, data=data)
+
